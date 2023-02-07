@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {}
+
+.navbar-nav {
+    height: 80px;
+    align-items: center;
+}
+
+.nav-link {
+    color: #204f87;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+.nav-link {
+    color: #133b6b;
+}
+
+.banner {
+    background-image: url(../images/banner_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hg {
+    min-height: 87vh;
+    align-items: center;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 82px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.banner i {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    color: #fff;
+}
+
+.who_we_are {
+    padding: 100px 0;
+}
+
+.redline {
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #f2622b;
+}
+
+.who_we_are h1 {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    color: #204f87;
+    text-transform: uppercase;
+    margin-top: 15px;
+
+}
+
+.who_we_are p {
+    font-weight: 400;
+    color: #b0b0b1;
+    margin-top: 15px;
+}
+
+/* What-we-do Part Starts Here */
+
+.what-we-do {
+    padding: 100px 0;
+    background-image: url(../images/what-we-do.png);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.what-we-do h1 {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    color: #204f87;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.what-we-do .services {
+    margin-top: 50px;
+    position: relative;
+}
+
+.services::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+.services:hover::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100;
+    width: 100%;
+    height: 100%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#28377e+0,28377e+100&0+0,1+100 */
+    background: -moz-linear-gradient(top, rgba(40, 55, 126, 0) 0%, hwb(230 16% 51%) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(40, 55, 126, 0) 0%, rgba(40, 55, 126, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(40, 55, 126, 0) 0%, rgba(40, 55, 126, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0028377e', endColorstr='#28377e', GradientType=0);
+    /* IE6-9 */
+
+}
+
+.services p {
+    font-size: 22px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.services:hover p {
+    opacity: 1;
+}
+
+.services i {
+    font-size: 22px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translatex(-50%);
+    color: #fff;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.services:hover i {
+    opacity: 1;
+}
+
+/* Out Attorney Part Starts Here */
+
+.attorneys {
+    padding: 100px 0;
+    background: url(../images/attorney-bg.png) no-repeat center;
+}
+
+.attorneys h1 {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.tposition {
+    position: relative;
+}
+.tposition::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+.tposition:hover::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100;
+    width: 100%;
+    height: 100%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#28377e+0,28377e+100&0+0,1+100 */
+    background: -moz-linear-gradient(top, rgba(40, 55, 126, 0) 0%, hwb(230 16% 51%) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(40, 55, 126, 0) 0%, rgba(40, 55, 126, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(40, 55, 126, 0) 0%, rgba(40, 55, 126, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0028377e', endColorstr='#28377e', GradientType=0);
+    /* IE6-9 */
+
+}
+
+.tposition h3 {
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.tposition img {
+    width: 100%
+}
+
+.attorneys p {
+    font-weight: 400;
+    color: #929dcf;
+    margin-top: 15px;
+}
+
+.attorneys a {
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    color: #f2622c;
+    margin-top: 10px;
+}
+
+.pd {
+    padding-bottom: calc(var(--bs-gutter-x) * .5);
+}
+
+.pt {
+    padding-top: calc(var(--bs-gutter-x) * .5);
+}
+
+/* Out Attorney Part End Here */
+
+/* The Languages Part Starts Here */
+.languages{
+    padding: 100px 0;
+}
+.languages h1{
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    color: #204f87;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.language_list{
+    margin-top: 15px;
+}
+
+.language_list h3{
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    color: #204f87;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-size: 25px;
+}
+.language_list p{
+    font-weight: 400;
+    color: #929dcf;
+    margin-top: 15px;
+}
+.language_list a{
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    color: #f2622c;
+    margin-top: 10px;
+}
+
+/* The Languages Part End Here */
+/* CONTACT US Part Starts Here */
+.contact{
+    padding: 100px 0;
+    background-color: #28377e;
+}
+.contact h1{
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.contact .mtop{
+    margin-top: 50px;
+}
+
+.contact input{
+    border: none;
+    border-bottom: 2px solid #4759a7;
+    background: transparent;
+    width: 100%;
+    outline: none;
+    margin-top: 35px;
+    padding: 10px 0;
+    color: #fff;
+}
+.contact input::placeholder{
+    color: #fff;
+    opacity: 50%;
+}
+
+.contact .b-send{
+    color: #fff;
+    background-color: #f2622c;
+    width: 150px;
+    border-radius: 0;
+    margin: auto;
+    display: block;
+    margin-top: 35px;
+    font-weight: 600;
+}
+.contact .b-send:hover{
+    background-color: #d74c19;
+}
+
+
+
+/* CONTACT US Part end Here */
+
+footer{
+    background-color: #0c1334;
+}
+footer p{
+    color: #616ca8;
+    margin-bottom: 0;
+}
+
+.footer-contents{
+    padding: 35px 0;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+footer ul i{
+    color: #b1b8dd;
+    margin-left: 15px;
+}
